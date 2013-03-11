@@ -44,8 +44,8 @@ public class ExperimentRunner extends ConsoleProgram {
     }
     
     public void runNullExperiment2() {
-        FunkyCounter funkyLocalVar = null; 
-        funkyLocalVar.incrementVariables();
+//        FunkyCounter funkyLocalVar = null; 
+//        funkyLocalVar.incrementVariables();
     }
     
     private FunkyCounter funkyInstanceVar;
@@ -56,6 +56,6 @@ public class ExperimentRunner extends ConsoleProgram {
     public void runEnumExperiment() {
         CardSuit s = CardSuit.SPADES;
         println(s.name());
-        // Type Òs.Ó right here, and see what Eclipse suggests
+        // Type "s." right here, and see what Eclipse suggests
     }
 }
